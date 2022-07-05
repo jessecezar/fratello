@@ -1,0 +1,149 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    text-align: center;
+}
+
+#topo {
+    width: 100%;
+    height: 728px;
+    background: url(../imagens/Grupo\ 3431.png) no-repeat;
+    background-size: 100%;
+}
+
+#logo {
+    width: 553px;
+    height: 251px;
+    background: url(../imagens/Grupo\ de\ rolagem\ 1.png) no-repeat;
+    background-size: 100%;
+}
+
+#principal {
+    height: 175.2px;
+    text-align: center;
+}
+
+#principal h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #FF006E;
+}
+
+#principal p {
+    width: 476px;
+    height: 66px;
+    margin: 13px auto;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 24px;
+    color: #4D4D4D;
+}
+
+#seta {
+    width: 50.86px;
+    height: 12px;
+    margin: 31px auto;
+    background: url(../imagens/Caminho\ 223.png);
+}
+
+#imagens {
+    width: 1516px;
+    height: 864.52px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#primeira-coluna {
+    width: 901px;
+    height: 844.52px;
+    background: url(../imagens/Grupo\ 3431.png) no-repeat;
+}
+
+#segunda-coluna {
+    width: 607px;
+    height: 831px;
+    background: url(../imagens/Grupo\ 3430.png) no-repeat;
+}
+
+#banner-bottom {
+    height: 509px;
+    background: url(../imagens/Grupo\ 3433.png) no-repeat;
+    background-size: contain;
+}
+
+footer {
+    height: 15rem;
+    background-color: #F5F5F5;
+    background: url(../imagens/Grupo\ 335.png) no-repeat;
+    background-size: contain;
+    
+} */
+
+/************************************************************************************************************/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 728px;
+    background: url(../imagens/Grupo\ 3431.png) no-repeat;
+    background-size: cover;
+}
+
+main {
+    width: 100%;
+    height: 1416px;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 553px;
+    height: 251px;
+    background: url(../imagens//Grupo\ de\ rolagem\ 1.png) no-repeat;
+}
+
+#principal {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #FF006E;
+}
+
+span {
+    width: 476px;
+    height: 66px;
+    margin: 13px auto;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 24px;
+    color: #4D4D4D;
+}
+
+#primeira-coluna {
+    
+}
+
+#banner-bottom {
+    width: ;
+    height: 509px;
+    background: url(../imagens/Grupo\ 3433.png) no-repeat;
+    background-size: cover;
+}
+
+footer {
+    width: 100%;
+    height: 242px;
+    background: url(../imagens/Grupo\ 335.png) no-repeat;
+    background-size: cover;
+}
