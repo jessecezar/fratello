@@ -85,65 +85,100 @@ footer {
 
 /************************************************************************************************************/
 
-
 * {
     margin: 0;
     padding: 0;
 }
 
 header {
-    width: 100%;
-    height: 728px;
     background: url(../imagens/Grupo\ 3431.png) no-repeat;
     background-size: cover;
+    background-position: center;
+    grid-area: h;
 }
 
 main {
-    width: 100%;
-    height: 1416px;
-    display: flex;
-    justify-content: center;
-}
-
-#logo {
-    width: 553px;
-    height: 251px;
-    background: url(../imagens//Grupo\ de\ rolagem\ 1.png) no-repeat;
+    grid-area: m;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 18vh 32vh 35vh;
+    grid-template-areas: ". p ."
+                         "i i i"
+                         "b b b";
 }
 
 #principal {
+    grid-area: p;
     text-align: center;
 }
 
-h1 {
+#logo {
+    height: 50%;
+    margin:  0 auto 15px auto;
+    background: url(../imagens/Grupo\ de\ rolagem\ 1.png) no-repeat;
+    background-size: 27vw;
+    background-position: center;
+}
+
+#principal h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 2vw;
     color: #FF006E;
 }
 
-span {
-    width: 476px;
-    height: 66px;
-    margin: 13px auto;
+#principal span {
     font-family: 'Roboto Regular', sans-serif;
-    font-size: 24px;
+    font-size: 1.2vw;
     color: #4D4D4D;
 }
 
+#seta {
+    width: 5vw;
+    height: 0.5vw;
+    margin: 10px auto;
+    background: url(../imagens/Caminho\ 223.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#imagens {
+    grid-area: i;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    grid-template-rows: 50vh 50vh;
+    grid-template-areas: " um dois";
+}
+
 #primeira-coluna {
-    
+    grid-area: um;
+}
+
+#segunda-coluna {
+    background: url(../imagens/Grupo\ 3430.png) no-repeat;
+    background-size: 75%;
+    grid-area: dois;
 }
 
 #banner-bottom {
-    width: ;
-    height: 509px;
     background: url(../imagens/Grupo\ 3433.png) no-repeat;
-    background-size: cover;
+    background-size: 98vw;
+    background-position: center;
+    grid-area: b;
+    grid-row-start: 3;
 }
 
 footer {
-    width: 100%;
-    height: 242px;
     background: url(../imagens/Grupo\ 335.png) no-repeat;
     background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    grid-area: f;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 27vh 77vh 9vh;
+    grid-template-areas: "h" "m" "f";
 }
